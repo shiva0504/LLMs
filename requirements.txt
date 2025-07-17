@@ -8,3 +8,9 @@ streamlit==1.46.1
 uvicorn==0.35.0
 fastapi
 langserve
+bs4
+pykernel
+pypdf
+chromadb
+faiss-cpu
+lance
