@@ -23,7 +23,7 @@ st.title('Langchain with Local LLama using OLlam - Gemma 3')
 input_text=st.text_input("Enter the topic")
 
 # Local model
-llm=Ollama(model="Gemma:latest")
+llm=Ollama(model="tinyllama")
 output_parser=StrOutputParser()
 chain=prompt|llm|output_parser
 
