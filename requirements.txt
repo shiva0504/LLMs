@@ -14,4 +14,6 @@ pypdf
 chromadb
 faiss-cpu
 lance
+arxiv
+wikipedia
 
